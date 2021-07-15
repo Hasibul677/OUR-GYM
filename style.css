@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@500&display=swap');
+body{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin: 0;
+}
+/*--------------------------
+style for navigation part 
+----------------------------*/
+header{
+    background-image:  url(images/bb.jpg);
+    background-size: 100%;
+    height: 650px;
+    color: white;
+    margin-bottom: 100px;
+}
+/* img{
+    opacity: 1;
+} */
+.header-part{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 100px;
+}
+.nav-title{
+    font-size: 2em;
+}
+.nav-menu ul{
+    display: flex;
+}
+.section-title{
+    color: #ec583e;
+}
+.nav-menu li{
+    font-size: 2em;
+    list-style: none;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+.button1{
+    padding: 0 20px;
+}
+.button2{
+    padding: 0 10px;
+}
+.button1{
+    padding: 0 20px;
+}
+.button1{
+    padding: 0 20px;
+}
+.link-button{
+    text-decoration: none;
+    border: 10px solid #ec583e;
+    background-color: #ec583e;
+    color: white;
+    font-size: 2em;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.link-button:hover{
+    border: 10px solid #3700ff;
+    background-color: #3700ff;
+    color: white;    
+}
+.link{
+    text-decoration: none;
+    border: 10px solid #3700ff;
+    background-color: #3700ff;
+    color: white;
+    font-size: 2em;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.link:hover{ 
+    border: 10px solid #ec583e;
+    background-color: #ec583e;
+    color: white;
+}
+/* style for hero part */
+.hero-part{
+    text-align: center;
+    margin-top: 150px;
+    text-transform: uppercase;   
+}
+.hero-part h2{
+    font-size: 2em;   
+}
+.hero-part h1{
+    font-size: 6em;
+    margin: 0;
+}
+/* style for program part */
+.program-part{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.program-part h1{
+    font-size: 2em;
+}
+.program-part p{
+    font-size: 20px;
+}
+.programs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 15px ;
+   margin: 30px 100px;
+}
+.program img{
+    width: 100px;
+    height: 110px;
+    background-color: blue;
+}
+.program-frame{
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+}
+.program-frame:hover{
+    display: flex;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
+}
+.program-frame  .program-info{
+    text-align: start;
+    margin-left: 10px;
+    font-size: 1.2em;
+}
+/* style for think part */
+.think{
+    height: 400px;
+    background-image: url(images/pic-2.jpg);
+    background-size: 100%;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.think-info{
+    text-transform: uppercase;
+    color: white;
+    padding-top: 100px;
+}
+.think-info h1{
+    font-size: 4em;
+    margin: 0;
+}
+.think-info p{
+    font-size: 1.5em;    
+}
+/* style for class part */
+.class-part{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.class-part h3{
+font-size: 2.5em;
+margin: 0;
+}
+.class-part p{
+    font-size: 1.2em;
+    }
+.class-info img{
+    width: 100px;
+    height: 110px;
+    background-color: blue;
+}
+.class-frame{
+    display: flex;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+}
+.class-frame:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
+}
+.class-flex-part{
+    display: flex;
+    margin: 50px 150px 0;
+}
+.class{
+    width: 900px;
+}
+.title{
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.class-in{
+    margin-left: 20px;
+    text-align: start;
+}
+.class-in h1{
+    font-size: 2em;
+}
+.class-in p{
+    font-size: 20px;
+}
+.class-in img{
+    width: 100%;
+    height: 50%;
+}
+.class-link{
+    width: 100%;
+}
+/* style for schedule part */
+.schedule{
+    background-image: url(images/s.jpg);
+    background-size: 100%;
+    text-align: center;
+    margin-bottom: 100px;
+    height: 650px;
+    color: white;
+    padding-top: 70px;
+}
+.schedule h3{
+ font-size: 3em;
+ margin: 0;
+}
+.schedule p{
+    font-size: 1.2em;
+    margin: 0;
+    padding: 20px 0;
+}
+.caption{
+    font-size: 1.5em;
+    word-spacing: 10px;
+}
+.class-time{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    margin: 20px 150px;
+
+}
+.data{
+    border: 2px solid gray;
+    padding: 30px;
+    color: white;
+    font-size: 1.2em;
+}
+/* style for trainers part */
+.trainer-part{
+    text-align: center;
+}
+.trainer-part h3{
+    font-size: 3em;
+    margin: 0;
+}
+.trainer-part> p{
+    font-size: 1.5em;
+    padding: 0 400px;  
+}
+.trainers{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    margin: 20px 100px;
+}
+.trainer img{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+}
+.trainer-frame{
+    text-align: start;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+}
+.trainer-frame:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
+}
+.trainer-info .social{
+    width: 50px;
+    height: 32px;
+}
+/* style for contact part */
+.contact-part{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+}
+.map-info{
+    background-image: url(images/bb.jpg);
+    background-size: 100%;
+    padding: 50px;
+}
+.map-info .input-type{
+    box-shadow: 0 8px 16px 0 white;
+    padding-left: 50px;
+}
+.input-type input{
+
+    width: 218px;
+    height: 50px;
+    border: 2px solid #ccc;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    text-align: start;
+}
+.input-type #subject{
+    width: 450px;
+}
+.input-type #message{
+    width: 450px;
+    height: 200px;
+}
+/* style for footer part */
+footer{
+    font-size: 2em;
+    margin-top: 50px;
+    padding: 50px;
+    text-align: center;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
+}
